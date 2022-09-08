@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.currency-text {
+  color: white;
+}
+.usd-text {
+  color: white;
+  padding-right: 40px;
+}
+.euro-text {
+  color: white;
+}
+.table-row {
+  display: flex;
+  padding-left: 18px;
+  padding-right: 18px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.currency-name {
+  display: flex;
+  align-items: center;
+}
+.money-type {
+  display: flex;
+  align-items: center;
+}

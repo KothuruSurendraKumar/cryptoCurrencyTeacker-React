@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+h1 {
+  color: aliceblue;
+}
+.crypto-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.crypto-img {
+  height: 250px;
+  width: 800px;
+}
+.table-container {
+  border: 2px solid #00e7ff;
+  width: 800px;
+  padding: 0px;
+  margin-top: 48px;
+  border-radius: 5px;
+}
+.table-header {
+  display: flex;
+  background-color: #092e33;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.list-elements {
+  display: flex;
+  align-items: center;
+}
+.crypto {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.usd {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding-right: 80px;
+}
+.euro {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
